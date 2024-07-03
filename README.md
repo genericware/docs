@@ -1,17 +1,38 @@
-#
+# docs
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/genericware/docs/master.svg)](https://results.pre-commit.ci/latest/github/genericware/docs/master)
 
-[//]: # (todo: description)
+Documentation containing designs, guides, and notes.
 
 ## Dependencies
 
-| name | description |
-|------|-------------|
-|      |             |
+| Name                                       | Description                                |
+|--------------------------------------------|--------------------------------------------|
+| [poetry](https://github.com/python-poetry) | Python packaging and dependency management |
 
 ## Install
 
-[//]: # (todo: installation instructions)
+```shell
+poetry install
+poetry shell
+pre-commit install
+```
+
+## Build
+
+```shell
+poetry build
+```
 
 ## Usage
 
-[//]: # (todo: usage instructions)
+[//]: # (todo: doc build command)
+
+test:
+```shell
+pytest .
+```
+
+check:
+```shell
+pre-commit run
+```
