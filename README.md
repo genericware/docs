@@ -1,5 +1,4 @@
 # docs
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/genericware/docs/master.svg)](https://results.pre-commit.ci/latest/github/genericware/docs/master)
 
 Documentation containing designs, guides, and notes.
 
